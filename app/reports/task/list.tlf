@@ -1,0 +1,315 @@
+{
+  "version": "0.9.0",
+  "items": [
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 216.6,
+      "y": 25,
+      "width": 162.1,
+      "height": 40,
+      "style": {
+        "font-family": [
+          "Times New Roman"
+        ],
+        "font-size": 36,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Tasks"
+      ]
+    },
+    {
+      "id": "default",
+      "type": "list",
+      "display": true,
+      "description": "",
+      "x": 20,
+      "y": 84,
+      "width": 555.2,
+      "height": 704.3,
+      "header": {
+        "enabled": true,
+        "height": 28,
+        "translate": {
+          "x": 0,
+          "y": 13
+        },
+        "items": [
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 64,
+            "y": 76,
+            "width": 218.1,
+            "height": 18,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": []
+            },
+            "texts": [
+              "Name"
+            ]
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 310,
+            "y": 76,
+            "width": 88.1,
+            "height": 18,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": []
+            },
+            "texts": [
+              "State"
+            ]
+          },
+          {
+            "id": "",
+            "type": "line",
+            "display": true,
+            "description": "",
+            "style": {
+              "border-color": "#000000",
+              "border-width": 1,
+              "border-style": "solid"
+            },
+            "x1": 20,
+            "y1": 99,
+            "x2": 575.2,
+            "y2": 99
+          },
+          {
+            "id": "",
+            "type": "text",
+            "display": true,
+            "description": "",
+            "x": 398.1,
+            "y": 76,
+            "width": 177.1,
+            "height": 18,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": []
+            },
+            "texts": [
+              "Due Date"
+            ]
+          }
+        ]
+      },
+      "detail": {
+        "height": 28,
+        "translate": {
+          "x": 0,
+          "y": -30.4
+        },
+        "items": [
+          {
+            "id": "name",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 62,
+            "y": 152.4,
+            "width": 238.1,
+            "height": 18,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "left",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "state",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 307,
+            "y": 152.4,
+            "width": 88.1,
+            "height": 18,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "due_date",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 398.1,
+            "y": 152.4,
+            "width": 177.1,
+            "height": 18,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 18,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "",
+              "type": ""
+            }
+          },
+          {
+            "id": "no",
+            "type": "text-block",
+            "display": true,
+            "description": "",
+            "x": 20,
+            "y": 154.4,
+            "width": 37,
+            "height": 16,
+            "style": {
+              "font-family": [
+                "Helvetica"
+              ],
+              "font-size": 16,
+              "color": "#000000",
+              "text-align": "center",
+              "vertical-align": "top",
+              "line-height": "",
+              "line-height-ratio": "",
+              "letter-spacing": "",
+              "font-style": [],
+              "overflow": "truncate",
+              "word-wrap": "break-word"
+            },
+            "reference-id": "",
+            "value": "",
+            "multiple-line": false,
+            "format": {
+              "base": "#{value}",
+              "type": ""
+            }
+          }
+        ]
+      },
+      "page-footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": 0,
+          "y": -73.8
+        },
+        "items": []
+      },
+      "footer": {
+        "enabled": false,
+        "height": 0,
+        "translate": {
+          "x": 0,
+          "y": -127.4
+        },
+        "items": []
+      },
+      "content-height": 676.3,
+      "auto-page-break": true
+    }
+  ],
+  "state": {
+    "layout-guides": []
+  },
+  "title": "Tasks",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

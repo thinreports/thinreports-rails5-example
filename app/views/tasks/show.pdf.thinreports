@@ -1,0 +1,8 @@
+report.start_new_page do |page|
+  page.values task: @task.id,
+              name: @task.name,
+              state: @task.done? ? 'done' : 'yet',
+              due_date: @task.due_date,
+              created_at: @task.created_at,
+              updated_at: @task.updated_at
+end

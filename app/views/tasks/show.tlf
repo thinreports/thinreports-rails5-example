@@ -1,0 +1,354 @@
+{
+  "version": "0.9.0",
+  "items": [
+    {
+      "id": "task",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 136,
+      "y": 21,
+      "width": 323.1,
+      "height": 36,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 36,
+        "color": "#000000",
+        "text-align": "center",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "Task #{value}",
+        "type": ""
+      }
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 77,
+      "y": 100,
+      "width": 103.1,
+      "height": 22,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 22,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Name:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 77,
+      "y": 156,
+      "width": 103.1,
+      "height": 22,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 22,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "State:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 77,
+      "y": 204,
+      "width": 103.1,
+      "height": 22,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 22,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Due Date:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 64.1,
+      "y": 310,
+      "width": 116,
+      "height": 22,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 22,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Created at:"
+      ]
+    },
+    {
+      "id": "",
+      "type": "text",
+      "display": true,
+      "description": "",
+      "x": 63.1,
+      "y": 345,
+      "width": 117,
+      "height": 22,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 22,
+        "color": "#000000",
+        "text-align": "right",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": []
+      },
+      "texts": [
+        "Updated at:"
+      ]
+    },
+    {
+      "id": "name",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 200.1,
+      "y": 102,
+      "width": 375.1,
+      "height": 40,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": true,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "state",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 200.1,
+      "y": 158.1,
+      "width": 214,
+      "height": 18,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "due_date",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 200.1,
+      "y": 206,
+      "width": 214,
+      "height": 18,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "created_at",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 200.1,
+      "y": 314,
+      "width": 285.1,
+      "height": 18,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    },
+    {
+      "id": "updated_at",
+      "type": "text-block",
+      "display": true,
+      "description": "",
+      "x": 200.1,
+      "y": 347,
+      "width": 285.1,
+      "height": 18,
+      "style": {
+        "font-family": [
+          "Helvetica"
+        ],
+        "font-size": 18,
+        "color": "#000000",
+        "text-align": "left",
+        "vertical-align": "top",
+        "line-height": "",
+        "line-height-ratio": "",
+        "letter-spacing": "",
+        "font-style": [],
+        "overflow": "truncate",
+        "word-wrap": "break-word"
+      },
+      "reference-id": "",
+      "value": "",
+      "multiple-line": false,
+      "format": {
+        "base": "",
+        "type": ""
+      }
+    }
+  ],
+  "state": {
+    "layout-guides": [
+      {
+        "type": "x",
+        "position": 180.1
+      },
+      {
+        "type": "x",
+        "position": 200.1
+      },
+      {
+        "type": "y",
+        "position": 88
+      }
+    ]
+  },
+  "title": "Task Detail",
+  "report": {
+    "paper-type": "A4",
+    "orientation": "portrait",
+    "margin": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}
