@@ -35,6 +35,16 @@ Go to `http://localhost:3000/tasks` in your browser.
 * thinreports 0.9.0
 * thinreports-rails 0.3.0
 
+## Appendix: Run on Docker Container (Experimental)
+
+```
+$ docker-compose build
+$ docker-compose run rails rails db:setup
+$ docker-compose up -d
+```
+
+Open `http://localhost:3000`.
+
 ### Todo
 
  - [ ] Write tests
