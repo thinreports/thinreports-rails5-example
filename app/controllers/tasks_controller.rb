@@ -82,7 +82,7 @@ class TasksController < ApplicationController
     end
 
     def generate_tasks_report(tasks)
-      report = ThinReports::Report.new layout: File.join(Rails.root, 'app', 'reports', 'task', 'list.tlf')
+      report = Thinreports::Report.new layout: File.join(Rails.root, 'app', 'reports', 'task', 'list.tlf')
 
       tasks.each do |task|
         report.list.add_row do |row|
