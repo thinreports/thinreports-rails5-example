@@ -1,6 +1,7 @@
 FROM ruby:2.3.1
 
 RUN apt-get update -qq && apt-get install -y build-essential
+RUN apt-get update -qq && apt-get install -y nodejs --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
 RUN mkdir /myapp
 WORKDIR /myapp
