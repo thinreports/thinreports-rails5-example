@@ -30,9 +30,9 @@ Go to `http://localhost:3000/tasks` in your browser.
 
 ### Requirements
 
-* Ruby 2.3
-* Rails 5.0+
-* thinreports 0.9.0
+* Ruby 2.3, 2.4
+* Rails 5.1.1
+* thinreports 0.9.0, 0.10.0
 * thinreports-rails 0.3.0
 
 ## Appendix: Run on Docker Container (Experimental)
