@@ -1,4 +1,4 @@
-FROM ruby:2.3.1
+FROM ruby:2.4.1
 
 RUN apt-get update -qq && apt-get install -y build-essential && rm -rf /var/lib/apt/lists/*
 RUN apt-get update -qq && apt-get install -y nodejs --no-install-recommends && rm -rf /var/lib/apt/lists/*
