@@ -45,10 +45,6 @@ $ docker-compose up -d
 
 Open `http://localhost:3000`.
 
-### Todo
-
- - [ ] Write tests
-
 ## Copyright
 
 &copy; 2010-2016 [Matsukei Co.,Ltd](http://www.matsukei.co.jp).
