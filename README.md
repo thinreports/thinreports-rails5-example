@@ -1,5 +1,7 @@
 # Thinreports Rails5 Example
 
+[![Build Status](https://travis-ci.org/thinreports/thinreports-rails5-example.svg?branch=master)](https://travis-ci.org/thinreports/thinreports-rails5-example)
+
 The Simple Task Management Application using Thinreports and Rails5.
 Rails4 example is [here](https://github.com/thinreports/thinreports-rails4-example).
 
