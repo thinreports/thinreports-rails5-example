@@ -4,6 +4,8 @@ rvm:
   - 2.4.3
   - 2.3.6
   - 2.2.9
+before_install:
+  - travis_retry gem update --system
 before_script:
   - RAILS_ENV=test bundle exec rake db:schema:load
 script: bundle exec rake spec
